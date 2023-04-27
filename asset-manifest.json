@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.cb609a9f.js",
-    "index.html": "/index.html",
-    "main.cb609a9f.js.map": "/static/js/main.cb609a9f.js.map"
+    "main.css": "/helix-medical.github.io/demo/static/css/main.86853cc3.css",
+    "main.js": "/helix-medical.github.io/demo/static/js/main.1de9e8a5.js",
+    "static/media/404.png": "/helix-medical.github.io/demo/static/media/404.fe2af73d57e36a7927f0.png",
+    "static/media/logo.png": "/helix-medical.github.io/demo/static/media/logo.e4d2c48c2a99d30d3960.png",
+    "index.html": "/helix-medical.github.io/demo/index.html",
+    "main.86853cc3.css.map": "/helix-medical.github.io/demo/static/css/main.86853cc3.css.map",
+    "main.1de9e8a5.js.map": "/helix-medical.github.io/demo/static/js/main.1de9e8a5.js.map"
   },
   "entrypoints": [
-    "static/js/main.cb609a9f.js"
+    "static/css/main.86853cc3.css",
+    "static/js/main.1de9e8a5.js"
   ]
 }
