@@ -3,7 +3,7 @@ import { Button, Modal, Select, Group, Text, Grid, useMantineTheme } from '@mant
 import { DateTimePicker } from '@mantine/dates';
 import { isNotEmpty, useForm } from '@mantine/form';
 import setNotification from '../system/errors/feedback-notif';
-import { practitioners, patients } from './import';
+import { practitioners, patients } from '../../api/appointments';
 
 interface IProps {
     show: boolean;

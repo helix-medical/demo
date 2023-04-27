@@ -1,4 +1,4 @@
-import data from '../../data/patients.json';
+import data from '../data/patients.json';
 
 export interface IPatient {
     id: string;

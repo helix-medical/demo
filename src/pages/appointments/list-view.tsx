@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { IAppointment } from './import';
+import { IAppointment } from '../../api/appointments';
 import { IconSearch } from '@tabler/icons-react';
 import { keys } from '@mantine/utils';
 import { Table, ScrollArea, Text, TextInput, Button } from '@mantine/core';

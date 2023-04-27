@@ -1,5 +1,5 @@
 import React from 'react';
-import { IAppointmentDataView } from '../../types/interfaces';
+import { IAppointment } from '../../api/appointments';
 import { Document, Page, View, Text, StyleSheet } from '@react-pdf/renderer';
 import HeaderPDF from './header';
 
@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     },
 });
 
-const AppointmentPDF = ({ data }: { data: IAppointmentDataView }) => {
+const AppointmentPDF = ({ data }: { data: IAppointment }) => {
     return (
         <Document title={`appointment-${data.appID}`} author="Helix">
             <Page size="A4" style={styles.page}>

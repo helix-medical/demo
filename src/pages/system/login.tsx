@@ -20,7 +20,7 @@ import useAuth from '../../hooks/use-auth';
 import { useNavigate, useLocation } from 'react-router-dom';
 import setNotification from './errors/feedback-notif';
 import logo from '../../assets/logo.png';
-import users, { IUser } from './import';
+import users, { IUser } from '../../api/users';
 
 const Login = () => {
     const { setAuth } = useAuth();

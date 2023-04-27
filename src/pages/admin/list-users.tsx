@@ -1,15 +1,14 @@
 import React from 'react';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Table, ActionIcon, Flex, Title, Badge, Group, Button, Divider } from '@mantine/core';
 import RoleBadge from '../../components/customBadges/user-badge';
 import { IconArchive, IconArchiveOff, IconEdit, IconEye } from '@tabler/icons-react';
 import IdBadge from '../../components/customBadges/id';
-// import ModalAddUser from './create';
-// import { IUsers } from '../../types/interfaces';
-import setNotification from '../system/errors/feedback-notif';
+import ModalAddUser from './create';
 import UserStatus from '../../components/customBadges/user-status';
 import cnf from '../../config/config';
 import moment from 'moment';
+import users from '../../api/users';
 
 const ListUsers = (): JSX.Element => {
     const [show, setShow] = useState(false);
@@ -17,7 +16,6 @@ const ListUsers = (): JSX.Element => {
         setShow(!show);
         setRefresh(!refresh);
     };
-    const [users, setUsers] = useState([]);
     const [refresh, setRefresh] = useState(false);
 
     // useEffect(() => {
@@ -59,7 +57,7 @@ const ListUsers = (): JSX.Element => {
 
     return (
         <>
-            {/* <Group position="apart">
+            <Group position="apart">
                 <Title order={2}>
                     Users{' '}
                     <Badge size="lg" radius="lg" variant="filled">
@@ -109,11 +107,11 @@ const ListUsers = (): JSX.Element => {
                                         variant="light"
                                         mx="xs"
                                         size="lg"
-                                        onClick={() =>
-                                            user.state === 'disabled'
-                                                ? enableUser(user?.uid ?? '')
-                                                : disableUser(user?.uid ?? '')
-                                        }
+                                        // onClick={() =>
+                                        //     user.state === 'disabled'
+                                        //         ? enableUser(user?.uid ?? '')
+                                        //         : disableUser(user?.uid ?? '')
+                                        // }
                                     >
                                         {user.state === 'disabled' ? (
                                             <IconArchiveOff size="1rem" />
@@ -126,8 +124,8 @@ const ListUsers = (): JSX.Element => {
                         </tr>
                     ))}
                 </tbody>
-            </Table> */}
-            {/* <ModalAddUser show={show} toggleModal={toggleModal} /> */}
+            </Table>
+            <ModalAddUser show={show} toggleModal={toggleModal} />
         </>
     );
 };

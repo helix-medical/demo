@@ -1,6 +1,6 @@
-import Users from '../../data/users.json';
-import Appointments from '../../data/appointments.json';
-import Patients from '../../data/patients.json';
+import Users from '../data/users.json';
+import Appointments from '../data/appointments.json';
+import Patients from '../data/patients.json';
 
 export interface IAppointment {
     address: string;

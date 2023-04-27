@@ -19,7 +19,7 @@ import AppTableView from './list-view';
 import ModalCreateApp from './create';
 
 import { useDisclosure } from '@mantine/hooks';
-import { appointments, IAppointment } from './import';
+import { appointments, IAppointment } from '../../api/appointments';
 
 const useStyles = createStyles((theme) => ({
     button: {

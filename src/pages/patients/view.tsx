@@ -13,7 +13,7 @@ import {
     UnstyledButton,
 } from '@mantine/core';
 import { useForm, isEmail, isNotEmpty } from '@mantine/form';
-import { IPatient } from './import';
+import { IPatient } from '../../api/patients';
 import setNotification from '../system/errors/feedback-notif';
 import { IconPhone, IconSend } from '@tabler/icons-react';
 import IdBadge from '../../components/customBadges/id';

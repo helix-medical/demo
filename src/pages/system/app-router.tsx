@@ -12,7 +12,7 @@ import Patients from '../patients';
 // import Calendar from '../calendar';
 // import EditAppointment from '../appointment/edit';
 import Appointments from '../appointments';
-// import ViewAppointment from '../appointment/view';
+import ViewAppointment from '../appointment/view';
 // import Accounting from '../accounting';
 // Errors
 import NotFound from './errors/404';
@@ -39,7 +39,7 @@ const AppRouter = () => {
                     <Route path="demo/appointments">
                         <Route index element={<Appointments add={false} />} />
                         <Route path="add" element={<Appointments add={true} />} />
-                        {/* <Route path=":appointmentID/view" element={<ViewAppointment />} /> */}
+                        <Route path=":appointmentID/view" element={<ViewAppointment />} />
                         {/* </Route> */}
                     </Route>
                     {/* <Route element={<RequireAuth allowedRoles={[ROLES.ADMIN, ROLES.PRACTITIONER]} />}> */}

@@ -15,7 +15,7 @@ import {
 import PatientItemGrid from './item-grid';
 import ModalAddPatient from './create';
 import PatientsTableView from './list-view';
-import patients, { IPatient } from './import';
+import patients, { IPatient } from '../../api/patients';
 import setNotification from '../system/errors/feedback-notif';
 
 const useStyles = createStyles((theme) => ({

@@ -8,6 +8,7 @@ const useLogout = () => {
         setAuth({});
         localStorage.removeItem('auth');
         setNotification(false, 'Logout successfull');
+        window.location.href = '/';
     };
 
     return logout;
