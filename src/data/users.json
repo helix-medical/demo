@@ -1,0 +1,34 @@
+[
+    {
+        "uid": "4678019b",
+        "name": "Marie",
+        "lastName": "Dupont",
+        "lastActive": "2023-04-27 09:18:50",
+        "state": "regular",
+        "role": "practitioner"
+    },
+    {
+        "uid": "4012dbbe",
+        "name": "Michel",
+        "lastName": "Jean",
+        "lastActive": " 1970-01-01 00:00:00",
+        "state": "disabled",
+        "role": "practitioner"
+    },
+    {
+        "uid": "c55e1365",
+        "name": "Misty",
+        "lastName": "Dalton",
+        "lastActive": "2023-04-12 20:22:38",
+        "state": "first-time",
+        "role": "secretary"
+    },
+    {
+        "uid": "b2abc37b",
+        "name": "Arthur",
+        "lastName": "Admin",
+        "lastActive": "2023-04-26 12:18:30",
+        "state": "regular",
+        "role": "admin"
+    }
+]
