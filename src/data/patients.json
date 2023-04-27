@@ -11,7 +11,7 @@
         "city": "Paris",
         "doctor": "Dr. Martin",
         "job": "Employé",
-        "passif": { "medicalIssues": "Covid19", "lastAppointments": [] }
+        "passif": "{ \"medicalIssues\": \"Covid19\", \"lastAppointments\": [] }"
     },
     {
         "id": "3e4a5b6c",
@@ -25,7 +25,7 @@
         "city": "Paris",
         "doctor": "Dr. Martin",
         "job": "Employé",
-        "passif": { "medicalIssues": "Covid19", "lastAppointments": [] }
+        "passif": "{ \"medicalIssues\": \"Covid19\", \"lastAppointments\": [] }"
     },
     {
         "id": "006dbafb",
@@ -35,7 +35,7 @@
         "sex": "M",
         "email": "michel.montagne@gmail.com",
         "city": "Tours",
-        "passif": { "medicalIssues": "", "lastAppointments": ["0", "9dd0ad53"] },
+        "passif": "{ \"medicalIssues\": \"\", \"lastAppointments\": [\"0\", \"9dd0ad53\"] }",
         "phone": "",
         "doctor": null,
         "job": "",
@@ -49,7 +49,7 @@
         "sex": "F",
         "email": "marie.gasterie@mail.com",
         "city": "Rennes",
-        "passif": { "medicalIssues": "Covid 19, Hypotension", "lastAppointments": ["0", "665ac905", "c7ef9f25"] },
+        "passif": "{ \"medicalIssues\": \"Covid 19, Hypotension\", \"lastAppointments\": [\"0\", \"665ac905\", \"c7ef9f25\"] }",
         "phone": "",
         "doctor": null,
         "job": "",
@@ -63,7 +63,7 @@
         "sex": "F",
         "email": "reb.hammer@gmail.com",
         "city": "Strasbourg",
-        "passif": { "medicalIssues": "", "lastAppointments": ["0", "72275564", "6b54f39c"] },
+        "passif": "{ \"medicalIssues\": \"\", \"lastAppointments\": [\"0\", \"72275564\", \"6b54f39c\"] }",
         "phone": "",
         "doctor": null,
         "job": "",
@@ -77,7 +77,7 @@
         "sex": "M",
         "email": "mika@gmail.com",
         "city": "Genève",
-        "passif": { "medicalIssues": "Covid 29", "lastAppointments": ["0"] },
+        "passif": "{ \"medicalIssues\": \"Covid 29\", \"lastAppointments\": [\"0\"] }",
         "phone": "+33123456789",
         "doctor": "",
         "job": "caissier",

@@ -1,11 +1,12 @@
 [
     {
-        "uid": "4678019b",
+        "uid": "1998",
         "name": "Marie",
         "lastName": "Dupont",
         "lastActive": "2023-04-27 09:18:50",
         "state": "regular",
-        "role": "practitioner"
+        "role": "practitioner",
+        "password": "demo"
     },
     {
         "uid": "4012dbbe",
@@ -21,14 +22,16 @@
         "lastName": "Dalton",
         "lastActive": "2023-04-12 20:22:38",
         "state": "first-time",
-        "role": "secretary"
+        "role": "secretary",
+        "password": "demo"
     },
     {
-        "uid": "b2abc37b",
+        "uid": "2003",
         "name": "Arthur",
         "lastName": "Admin",
         "lastActive": "2023-04-26 12:18:30",
         "state": "regular",
-        "role": "admin"
+        "role": "admin",
+        "password": "admin"
     }
 ]

@@ -1,0 +1,25 @@
+[
+    {
+        "address": "",
+        "amount": 50,
+        "appID": "9dd0ad53",
+        "birthDate": "2003-10-22",
+        "city": "Tours",
+        "content": "{\"reasons\": \"il a mal au dos\", \"symptoms\": \"Mal de dos quand il se baisse\", \"diagnosis\": \"il a un problème de dos\", \"treatment\": \"trust du bras gauche, et de la cheville droite\", \"observations\": \"il est grand le monsieur\", \"knownDiseases\": \"Il a un cancer du sein\", \"knownMedications\": \"il prend du doliprane contre son cancer\"}",
+        "date": "2023-04-15 18:00",
+        "doctor": "",
+        "email": "",
+        "job": "",
+        "kind": "follow-up",
+        "lastName": "Martin",
+        "method": "card",
+        "name": "Marie",
+        "passif": "{\"medicalIssues\": \"\", \"lastAppointments\": [\"0\"]}",
+        "patientId": "006dbafb",
+        "phone": "",
+        "pLastName": "Michel",
+        "pName": "Martin",
+        "sex": "M",
+        "status": "finished"
+    }
+]
