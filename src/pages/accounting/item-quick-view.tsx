@@ -1,7 +1,7 @@
 import React from 'react';
 import { Paper, Text, ThemeIcon, Group, Grid } from '@mantine/core';
 import { IconCoins, IconCreditCard, IconFileHorizontal } from '@tabler/icons-react';
-import { ISum } from './import';
+import { ISum } from '../../api/accounting';
 
 interface IProps {
     sum: ISum;

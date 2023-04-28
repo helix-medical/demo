@@ -1,12 +1,21 @@
 [
     {
-        "uid": "1998",
-        "name": "Marie",
-        "lastName": "Dupont",
-        "lastActive": "2023-04-27 09:18:50",
-        "state": "regular",
+        "uid": "6af2d273",
+        "name": "Anette",
+        "lastName": "Faure",
+        "lastActive": "1970-01-01 00:00:00",
+        "state": "first-time",
         "role": "practitioner",
-        "password": "demo"
+        "password": "anette"
+    },
+    {
+        "uid": "0e56bf99",
+        "name": "Audrey",
+        "lastName": "Lessard",
+        "lastActive": "1970-01-01 00:00:00",
+        "state": "first-time",
+        "role": "practitioner",
+        "password": "audrey"
     },
     {
         "uid": "4012dbbe",
@@ -14,7 +23,8 @@
         "lastName": "Jean",
         "lastActive": " 1970-01-01 00:00:00",
         "state": "disabled",
-        "role": "practitioner"
+        "role": "practitioner",
+        "password": "michel"
     },
     {
         "uid": "c55e1365",

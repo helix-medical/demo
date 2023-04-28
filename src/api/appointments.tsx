@@ -4,7 +4,7 @@ import Patients from '../data/patients.json';
 
 export interface IAppointment {
     address: string;
-    amount: number;
+    amount: string;
     appID: string;
     birthDate: string;
     city: string;

@@ -1,0 +1,170 @@
+{
+    "transactions": [
+        {
+            "uid": "c98fd42a",
+            "amount": "50",
+            "method": "check",
+            "date": "2023-04-18 09:59",
+            "id": "053d4679",
+            "patientName": "Barry",
+            "patientLastName": "DeGrasse",
+            "appointment": "053d4679",
+            "facture": "1"
+        },
+        {
+            "uid": "cd419303",
+            "amount": "50",
+            "method": "card",
+            "date": "2023-04-17 16:58",
+            "id": "ef63da82",
+            "patientName": "Walter",
+            "patientLastName": "Mickael",
+            "appointment": "ef63da82",
+            "facture": "2"
+        },
+        {
+            "uid": "f2c553ea",
+            "amount": "50",
+            "method": "cash",
+            "date": "2023-04-17 15:45",
+            "id": "5e5fe3f1",
+            "patientName": "Nathalie",
+            "patientLastName": "Barjavel",
+            "appointment": "5e5fe3f1",
+            "facture": "3"
+        },
+        {
+            "uid": "22f10b8c",
+            "amount": "55",
+            "method": "card",
+            "date": "2023-04-17 14:50",
+            "id": "da2338c2",
+            "patientName": "Michel",
+            "patientLastName": "Montagne",
+            "appointment": "da2338c2",
+            "facture": "4"
+        },
+        {
+            "uid": "a0f3012c",
+            "amount": "45",
+            "method": "cash",
+            "date": "2023-04-17 11:50",
+            "id": "23eeafc2",
+            "patientName": "Estelle",
+            "patientLastName": "Chaussée",
+            "appointment": "23eeafc2",
+            "facture": "5"
+        },
+        {
+            "uid": "bfe9f8e9",
+            "amount": "50",
+            "method": "card",
+            "date": "2023-04-17 11:50",
+            "id": "a6d89632",
+            "patientName": "Corette",
+            "patientLastName": "Lagrange",
+            "appointment": "a6d89632",
+            "facture": "6"
+        },
+        {
+            "uid": "f3baee15",
+            "amount": "50",
+            "method": "check",
+            "date": "2023-04-17 09:57",
+            "id": "acd8fba4",
+            "patientName": "Barry",
+            "patientLastName": "DeGrasse",
+            "appointment": "acd8fba4",
+            "facture": "7"
+        },
+        {
+            "uid": "7adf3d07",
+            "amount": "50",
+            "method": "card",
+            "date": "2023-04-10 12:49",
+            "id": "f2f12628",
+            "patientName": "Walter",
+            "patientLastName": "Mickael",
+            "appointment": "f2f12628",
+            "facture": "8"
+        },
+        {
+            "uid": "e9b4803c",
+            "amount": "40",
+            "method": "cash",
+            "date": "2023-04-07 14:49",
+            "id": "7304e55e",
+            "patientName": "Nathalie",
+            "patientLastName": "Barjavel",
+            "appointment": "7304e55e",
+            "facture": "9"
+        },
+        {
+            "uid": "0b5bda68",
+            "amount": "50",
+            "method": "card",
+            "date": "2023-04-06 14:49",
+            "id": "23db1261",
+            "patientName": "Michel",
+            "patientLastName": "Montagne",
+            "appointment": "23db1261",
+            "facture": "10"
+        },
+        {
+            "uid": "ff49e71d",
+            "amount": "70",
+            "method": "card",
+            "date": "2023-04-05 12:50",
+            "id": "63983d11",
+            "patientName": "Estelle",
+            "patientLastName": "Chaussée",
+            "appointment": "63983d11",
+            "facture": "11"
+        },
+        {
+            "uid": "d38abf11",
+            "amount": "50",
+            "method": "cash",
+            "date": "2023-04-04 10:51",
+            "id": "00f3657f",
+            "patientName": "Corette",
+            "patientLastName": "Lagrange",
+            "appointment": "00f3657f",
+            "facture": "12"
+        },
+        {
+            "uid": "e653f8d1",
+            "amount": "50",
+            "method": "check",
+            "date": "2023-03-16 09:59",
+            "id": "ba343740",
+            "patientName": "Barry",
+            "patientLastName": "DeGrasse",
+            "appointment": "ba343740",
+            "facture": "13"
+        }
+    ],
+    "sums": [
+        {
+            "type": "month",
+            "sum": 560,
+            "card": 325,
+            "cash": 185,
+            "check": 100
+        },
+        {
+            "type": "week",
+            "sum": 300,
+            "card": 155,
+            "cash": 95,
+            "check": 100
+        },
+        {
+            "type": "all",
+            "sum": 610,
+            "card": 325,
+            "cash": 185,
+            "check": 150
+        }
+    ]
+}

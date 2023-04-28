@@ -1,4 +1,4 @@
-import data from '../../data/accounting.json';
+import data from '../data/accounting.json';
 
 export interface ITransactions {
     uid: string;
@@ -8,6 +8,7 @@ export interface ITransactions {
     patientName: string;
     patientLastName: string;
     appointment: string;
+    facture: string;
 }
 
 export interface ISum {
@@ -30,12 +31,12 @@ export interface IFacture {
 
 export interface IProps {
     transactions: ITransactions[];
-    sum: ISum[];
+    sums: ISum[];
 }
 
 const accounting = data as IProps;
 
-export const sum = accounting.sum;
+export const sum = accounting.sums;
 export const transactions = accounting.transactions;
 
 export default accounting;

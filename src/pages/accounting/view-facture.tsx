@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { PDFViewer, StyleSheet, pdf } from '@react-pdf/renderer';
 import setNotification from '../system/errors/feedback-notif';
 import { Button, Group, LoadingOverlay, Modal, Title, useMantineTheme } from '@mantine/core';

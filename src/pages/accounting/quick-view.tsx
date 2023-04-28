@@ -5,7 +5,7 @@ import { Title, Grid, Paper } from '@mantine/core';
 import { useState } from 'react';
 // import setNotification from '../system/errors/feedback-notif';
 import ItemQuickView from './item-quick-view';
-import { ISum, sum } from './import';
+import { ISum, sum } from '../../api/accounting';
 
 const QuickView = () => {
     // const now = moment().format(cnf.formatDate);
